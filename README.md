@@ -6,8 +6,10 @@ Master's research project (2018-2019), with the goal of designing fair encoding 
 <p align="center">
 <img src="SIMO.png" class="centerImage" alt="drawing" width="500"/>
  </p>
+ 
+## Results
 
-We want to minimize the greatest reconstruction error among all receiving channels (min-Max optimization), under a power constraint. This is particularly interesting if one sends a message to multiple outputs and wants to make sure that all channels can decode it with high fidelity. 
+We minimize the greatest reconstruction error among all receiving channels (min-Max optimization), under a power constraint. This is particularly interesting if one sends a message to multiple outputs and wants to make sure that all channels can decode it with high fidelity. 
 - For example looking at the PSNR of channel 1 (on the left below), we can see that the PSNR returned by the min-Max solution (in red) is between the PSNR optimized for channel 1 and channel 2 (in blue). 
 - We can say the same for the PSNR of channel 2 (on the right), thus, no channel has a PSNR much greater than the other because we distribute the power between both channels.
 
