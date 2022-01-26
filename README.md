@@ -1,4 +1,4 @@
-# Fair-Matrix-Design-for-Linear-Video-Coders
+# Fair Matrix Design for Linear Video-Coders
 
 ## Goal
 Master's research project (2018-2019), with the goal of designing fair encoding and decoding matrices for linear video coders (where all image transformations are linear). We use linear coding methods to avoid a sharp decrease in the image reconstruction fidelity when the receiver channel quality (PSNR) is below the threshold for which the coding scheme was designed. We work in a multicast scenario (one source and multiple receivers) :
