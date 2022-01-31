@@ -4,7 +4,7 @@
 Master's research project (2018-2019), with the goal of designing fair encoding and decoding matrices for linear video coders (where all image transformations are linear). We use linear coding methods to avoid a sharp decrease in the image reconstruction fidelity when the receiver channel quality (PSNR) is below the threshold for which the coding scheme was designed. We work in a multicast scenario (one source and multiple receivers) :
 
 <p align="center">
-<img src="SIMO.png" class="centerImage" alt="drawing" width="500"/>
+<img src="images/SIMO.png" class="centerImage" alt="drawing" width="500"/>
  </p>
  
 ## Results
@@ -14,7 +14,7 @@ We minimize the greatest reconstruction error among all receiving channels (min-
 - We can say the same for the PSNR of channel 2 (on the right), thus no channel has a PSNR much greater than the other because we distribute the power between both channels.
 
 <p align="center">
-<img src="min-Max solution.jpg" alt="drawing" width="500"/>
+<img src="images/min-Max solution.jpg" alt="drawing" width="500"/>
 </p>
 
 ## References
